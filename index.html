@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+        var writeContent1 = function(){
+            var xmlHttp = new XMLHttpRequest();
+            xmlHttp.open("GET","test.json",false)
+            xmlHttp.send()
+
+            var content = xmlHttp.response;
+            alert(content);
+            var parse = JSON.parse(content);
+
+
+
+            div_Id.innerText = parse.text1
+        }
+
+
+        window.onload = function () {
+            div_Id = document.getElementById("content")
+        }
+    </script>
+</head>
+<body>
+</div>
+<input type="button" value="1" onclick="writeContent1()">
+<h1 id="content"></h1>
+</body>
+</html>
