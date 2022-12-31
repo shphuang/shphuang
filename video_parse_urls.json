@@ -1,0 +1,41 @@
+{
+  "defalutParseUrl": "https://okjx.cc/?url=",
+  "videoParseUrls": [
+    {
+      "id": "0",
+      "url": "https://jx.xmflv.com/?url=",
+      "name": "网站1",
+      "isDefault": true
+    },
+    {
+      "id": "1",
+      "url": "https://okjx.cc/?url=",
+      "name": "网站2",
+      "isDefault": false
+    },
+    {
+      "id": "2",
+      "url": "https://jx.aidouer.net/?url=",
+      "name": "网站3",
+      "isDefault": false
+    },
+    {
+      "id": "3",
+      "url": "https://jx.jsonplayer.com/player/?url=",
+      "name": "网站4",
+      "isDefault": false
+    },
+    {
+      "id": "4",
+      "url": "https://jx.bozrc.com:4433/player/?url=",
+      "name": "网站5",
+      "isDefault": false
+    },
+    {
+      "id": "5",
+      "url": "https://api.okjx.cc:3389/jx.php?url=",
+      "name": "网站6",
+      "isDefault": false
+    }
+  ]
+}
